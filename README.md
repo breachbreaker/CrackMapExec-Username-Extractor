@@ -1,6 +1,6 @@
 # CrackMapExec Username Extractor
 
-This Python script uses CrackMapExec to extract usernames from a target and saves them to a file. 
+This Python script uses CrackMapExec to extract usernames from a target, cleans the output, and then saves the users to a file. 
 
 ## Features
 
@@ -26,5 +26,6 @@ Follow the prompts to enter:
 - Target IP address
 - Username for authentication
 - Password for authentication
+- Domain Name (ALL CAPS)
 - Output file name
 

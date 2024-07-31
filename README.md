@@ -1,0 +1,1 @@
+# crackmapexec_username_extractor

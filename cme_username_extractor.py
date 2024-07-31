@@ -5,7 +5,7 @@ import re
 ip_address = input("Enter the target IP address: ")
 username = input("Enter the username: ")
 password = input("Enter the password: ")
-domain = input("Enter the domain name (e.g., INLANEFREIGHT.local): ")
+domain = input("Enter the domain name (e.g., DOMAIN.local): ")
 output_file = input("Enter the name for the output file (e.g., usernames.txt): ")
 
 # Construct the CrackMapExec command

@@ -5,7 +5,7 @@ import re
 ip_address = input("Enter the target IP address: ")
 username = input("Enter the username: ")
 password = input("Enter the password: ")
-domain = input("Enter the domain name (e.g., DOMAIN.local): ")
+domain = input("Enter the domain name using all CAPS (e.g., DOMAIN.LOCAL): ")
 output_file = input("Enter the name for the output file (e.g., usernames.txt): ")
 
 # Construct the CrackMapExec command
@@ -31,9 +31,4 @@ with open(output_file, 'w') as f:
     for username in unique_usernames:
         f.write(f"{username}\n")
 
-print(f"\nUsernames have been saved to {output_file}")
-
-# Also print the usernames to the console
-print("\nExtracted usernames:")
-for username in unique_usernames:
-    print(username)
+print(f"\nOperation completed. {len(unique_usernames)} usernames have been saved to {output_file}")
